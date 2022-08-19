@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Cairo&family=Lemonada&family=Raleway:wght@100;600&display=swap');
+
+/* Navbar Styles */
+
+.container{
+  padding: 20%;
+}
+
+.container-fluid{
+  background: rgba(0, 0, 0, 1) !important;
+  z-index: 1;
+}
+
+.logo{
+  padding: 0 5%;
+}
+
+.bar{
+  /* align bar items to right */
+  margin: auto 0 auto auto;
+  padding: 0 5%;
+}
+
+li{
+  margin: 10px;
+}
+
+.navLink{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+}
+
+.toggler{
+  /* for inspect list */
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bar{
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .toggler{
+    margin: auto 0 auto auto;
+    padding: 0 0 0 5%;
+  }
+
+  .intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../intro.png");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 15% 5% 10%;
+  }
+
+  #carouselExampleControls{
+    min-width:100%;
+    max-height: 70vh;
+  }
+
+  .carousel-inner{
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel-itemr{
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .apartment-align{
+    margin: 15%;
+    padding: 5%;
+  }
+
+}
+
+
+.apart{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 0 0 5%;
+  margin: 10% 0;
+}
+
+#ap1{
+  background-image: url("/ap1.png");
+  width: 100%;
+  height: 90%;
+}
+
+#ap2{
+  background-image: url("/ap2.png");
+  width: 100%;
+  height: 90%;
+}
+
+#ap3{
+  background-image: url("/ap3.png");
+  width: 100%;
+  height: 90%;
+}
+
+.apartment-align{
+  margin: 20%;
+}
+
+#apartment{
+  background-color: #fff;
+  margin: 0;
+  padding: 5%;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+  color: gray;
+}
+
+.carousel-item{
+  text-align: center;
+  width: 100%;
+  height: 85vh;
+}
+
+.zg{
+  min-width:100%;
+  max-height:100%;
+}
+
+#apartment li{
+  list-style: none;
+}
+
+#apartment-dec{
+  margin-top: 50%;
+}
+
+.handle-apartment{
+  width: 100%;
+}
+
+.apart ul{
+  text-align: right;
+  list-style: none;
+  font-size: 12px;
+}
+
+.apart p{
+  font-size: 10px;
+  padding: 2% 0 0;
+}
+
+.handle{
+  text-align: center;
+  margin: 10%;
+}
+
+.card-text{
+  width: 80%;
+  height: 45%;
+  background-color: #fff;
+  text-align: right;
+  padding: 3% 5%;
+  margin-top: 100%;
+}
+
+
+.apart button{
+  font-family: 'Aref Ruqaa', serif;
+}
+
+.for-more-btn{
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.card-text{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: right;
+  padding: 5% 5% 1%;
+}
+
+footer{
+  width: 100%;
+}
+
+.footer-icon a{
+  color: #fff;
+}
+
+.footer{
+  bottom: 0;
+  width: 100%;
+  background-color: #0F3D3E;
+  color: #fff;
+  text-align: center;
+  padding: 3% 5%;
+  z-index: 1;
+}
+/* Contact form styles */
+
+#form-fill{
+background-color: #fff;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+padding: 5%;
+font-family: 'Cairo', sans-serif;
+}
+
+#form-info{
+background-color: #00D28D;
+color: #fff;
+text-align: right;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+padding: 5%;
+font-family: 'Cairo', sans-serif;
+}
+
+#form-info li {
+  list-style: none;
+  text-decoration: none;
+}
+
+#form-info a{
+  text-decoration: none;
+}
+
+.forms{
+  margin: 10%;
+  width: 80%;
+  align-content: center;
+}
+
+.contact-form{
+  text-align: right;
+}
+
+input, textarea{
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 3%;
+}
+
+#formIcons{
+  padding: 3% 0;
+}
+
+.submit{
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover{
+  opacity: 0.6;
+}

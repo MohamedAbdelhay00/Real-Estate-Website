@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Cairo&family=Lemonada&family=Raleway:wght@100;600&display=swap');
+
+h2{
+  padding: 1% 0;
+  font-family: 'Lemonada', cursive;
+}
+/* Navbar Styles */
+
+.container{
+  padding: 20%;
+}
+
+.container-fluid{
+  background: rgba(0, 0, 0, 0.3) !important;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo{
+  padding: 0 5%;
+}
+
+.bar{
+  /* align bar items to right */
+  margin: auto 0 auto auto;
+  padding: 0 5%;
+}
+
+li{
+  margin: 10px;
+}
+
+.navLink{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+}
+
+.toggler{
+  /* for inspect list */
+  margin: 0;
+  padding: 0;
+}
+
+/* introduction div */
+
+.intro{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../intro.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  padding: 100px 5% 0;
+}
+
+.intro h1{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  padding: 10% 0 5%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bar{
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .toggler{
+    margin: auto 0 auto auto;
+    padding: 0 0 0 5%;
+  }
+
+  .intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../intro.png");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 15% 5% 10%;
+  }
+
+}
+
+/* Most Popular Part */
+
+.register{
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.register h1{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  padding: 5% 0 2%;
+  color: #A5C9CA;
+  display: inline-block;
+
+}
+
+.register h2{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  padding: 5% 0 2%;
+  color: #2C3333;
+  display: inline-block;
+}
+
+.register p {
+  font-family: 'Lemonada', cursive;
+  color: #2C3333;
+  font-size: 0.8rem;
+  padding: 0 0 2%;
+}
+
+
+.apart{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 0 0 25%;
+}
+
+#ap1{
+  background-image: url("/ap1.png");
+  width: 100%;
+  height: 90%;
+}
+
+#ap2{
+  background-image: url("/ap2.png");
+  width: 100%;
+  height: 90%;
+}
+
+#ap3{
+  background-image: url("/ap3.png");
+  width: 100%;
+  height: 90%;
+}
+
+.apart ul{
+  text-align: right;
+  list-style: none;
+  font-size: 12px;
+}
+
+.apart p{
+  font-size: 10px;
+  padding: 2% 0 0;
+}
+
+.handle{
+  text-align: center;
+}
+
+.card-text{
+  width: 80%;
+  height: 45%;
+  background-color: #fff;
+  text-align: right;
+  padding: 3% 5%;
+  margin-top: 100%;
+  margin-left: 10%;
+}
+
+/* US */
+
+.about-us{
+  /* #CA955C */
+  background-color: #0F3D3E;
+  color: #fff;
+  padding: 5% 0;
+  text-align: center;
+}
+
+#testimonials{
+  text-align: center;
+  background: rgba(0, 0, 0, 0) ;
+  color: #fff;
+}
+
+.testimonials-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel-item h2{
+  font-family: 'Lemonada', cursive;
+}
+
+.about-us{
+  padding: 5%;
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+}
+
+.about-us h3{
+  padding: 1% 0;
+  font-family: 'Lemonada', cursive;
+}
+
+.about{
+  padding: 5%;
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  background-color: #FAF3E3;
+  color: #7F8487;
+}
+
+.about h3{
+  padding: 1% 0;
+  font-family: 'Lemonada', cursive;
+}
+.option img {
+  width: 100%;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.vision h3{
+  padding: 5% 0;
+}
+
+.vision p{
+  padding: 5% 10%;
+}
+
+.explore{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  width: 100%;
+  padding: 5% 5%;
+  background-color: #F6FBF4;
+}
+
+.explore h2{
+  padding: 1% 0 3%;
+}
+
+.internal-explore{
+  width: 100%;
+  text-align: center;
+}
+
+.internal-explore h2{
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 70px;
+}
+
+.internal-explore ul{
+  font-family: 'Raleway', sans-serif;
+}
+
+.for-more-btn{
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.apart button{
+  font-family: 'Aref Ruqaa', serif;
+}
+
+.contact-us{
+  background-color: #fff;
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.btn{
+  margin: 1%;
+}
+
+.footer-icon a{
+  color: #fff;
+}
+
+.footer{
+  background-color: #0F3D3E;
+  color: #fff;
+  text-align: center;
+  padding: 5% 5%;
+}
