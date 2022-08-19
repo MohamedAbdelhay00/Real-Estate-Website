@@ -2,8 +2,6 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
-const ejs = require("ejs");
-const _ = require("lodash");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -13,7 +11,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.get("/", function(req,res){
-  res.sendFile(__dirname + "/views/home.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/exploration", function(req,res){
